@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0464099E2AFCCDE6007804D4 /* BaseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464099D2AFCCDE6007804D4 /* BaseInfoView.swift */; };
 		049585412AC01F270010F0E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049585402AC01F270010F0E8 /* AppDelegate.swift */; };
 		049585432AC01F270010F0E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049585422AC01F270010F0E8 /* SceneDelegate.swift */; };
 		049585452AC01F270010F0E8 /* OverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049585442AC01F270010F0E8 /* OverviewController.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0464099D2AFCCDE6007804D4 /* BaseInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInfoView.swift; sourceTree = "<group>"; };
 		0495853D2AC01F270010F0E8 /* WorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049585402AC01F270010F0E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		049585422AC01F270010F0E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0464099C2AFCCDC5007804D4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04CC581C2AFA37EF00C51DFD /* BaseView.swift */,
+				0464099D2AFCCDE6007804D4 /* BaseInfoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		049585342AC01F270010F0E8 = {
 			isa = PBXGroup;
 			children = (
@@ -145,10 +156,11 @@
 		049585662AC042970010F0E8 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				0464099C2AFCCDC5007804D4 /* Views */,
+				049585722AC0857C0010F0E8 /* SecondaryButton.swift */,
 				049585562AC023A50010F0E8 /* TabBarController.swift */,
 				0495855E2AC037CF0010F0E8 /* NavBarController.swift */,
 				049585612AC03B7A0010F0E8 /* BaseController.swift */,
-				04CC581C2AFA37EF00C51DFD /* BaseView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -190,7 +202,6 @@
 			isa = PBXGroup;
 			children = (
 				04CC581E2AFB9A7200C51DFD /* WeekView */,
-				049585722AC0857C0010F0E8 /* SecondaryButton.swift */,
 				04CC581A2AFA375E00C51DFD /* OverviewNavBar.swift */,
 			);
 			path = Views;
@@ -284,6 +295,7 @@
 				0495855F2AC037D00010F0E8 /* NavBarController.swift in Sources */,
 				0495856C2AC043220010F0E8 /* SessionController.swift in Sources */,
 				049585732AC0857C0010F0E8 /* SecondaryButton.swift in Sources */,
+				0464099E2AFCCDE6007804D4 /* BaseInfoView.swift in Sources */,
 				0495856E2AC043320010F0E8 /* ProgressController.swift in Sources */,
 				0495855D2AC025D00010F0E8 /* Resources.swift in Sources */,
 				04CC58242AFBA3DB00C51DFD /* Date + Extension.swift in Sources */,
