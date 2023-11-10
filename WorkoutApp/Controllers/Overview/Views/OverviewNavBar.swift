@@ -10,8 +10,17 @@ import UIKit
 final class OverViewNavBar: BaseView {
     
     private let titleLabel = UILabel()
-    private let allWorkoutsButton = SecondaryButton()
-    private let addButton = UIButton()
+    private let allWorkoutsButton: WAButton = {
+        let button = WAButton(with: .secondary)
+        button.setTitle(R.Strings.OverView.allWorkoutsButton)
+        return button
+    }()
+    
+    private let addButton: UIButton = {
+        let button = UIButton()
+        button.setImage(R.Images.Common.add, for: .normal)
+        return button
+    }()
     private let weekView = WeekView()
     
     override func layoutSubviews() {
@@ -51,7 +60,6 @@ extension OverViewNavBar {
             allWorkoutsButton.topAnchor.constraint(equalTo: addButton.topAnchor),
             allWorkoutsButton.trailingAnchor.constraint(equalTo: addButton.leadingAnchor, constant: -15),
             allWorkoutsButton.heightAnchor.constraint(equalToConstant: 28),
-            allWorkoutsButton.widthAnchor.constraint(equalToConstant: 130),
             
             titleLabel.centerYAnchor.constraint(equalTo: allWorkoutsButton.centerYAnchor),
             titleLabel.trailingAnchor.constraint(equalTo: allWorkoutsButton.leadingAnchor),
@@ -73,9 +81,6 @@ extension OverViewNavBar {
         titleLabel.text = R.Strings.NavBar.overview
         titleLabel.textColor = R.Colors.titleGray
         titleLabel.font = R.Fonts.helveticaRegular(with: 22)
-        
-        allWorkoutsButton.setTitle(R.Strings.OverView.allWorkoutsButton)
-        
-        addButton.setImage(R.Images.Common.add, for: .normal)        
+                    
     }
 }
