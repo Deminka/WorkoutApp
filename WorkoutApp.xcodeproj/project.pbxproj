@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0464099E2AFCCDE6007804D4 /* WABaseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464099D2AFCCDE6007804D4 /* WABaseInfoView.swift */; };
+		046409A12AFE30E1007804D4 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046409A02AFE30E1007804D4 /* TimerView.swift */; };
+		046409A42AFE320A007804D4 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046409A32AFE320A007804D4 /* ProgressView.swift */; };
 		049585412AC01F270010F0E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049585402AC01F270010F0E8 /* AppDelegate.swift */; };
 		049585432AC01F270010F0E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049585422AC01F270010F0E8 /* SceneDelegate.swift */; };
 		049585452AC01F270010F0E8 /* OverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049585442AC01F270010F0E8 /* OverviewController.swift */; };
@@ -32,6 +34,8 @@
 
 /* Begin PBXFileReference section */
 		0464099D2AFCCDE6007804D4 /* WABaseInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseInfoView.swift; sourceTree = "<group>"; };
+		046409A02AFE30E1007804D4 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		046409A32AFE320A007804D4 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		0495853D2AC01F270010F0E8 /* WorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049585402AC01F270010F0E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		049585422AC01F270010F0E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,9 +83,27 @@
 		0464099F2AFE30A1007804D4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0495856B2AC043220010F0E8 /* SessionController.swift */,
+				046409A22AFE31E6007804D4 /* Timer */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		046409A22AFE31E6007804D4 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				046409A02AFE30E1007804D4 /* TimerView.swift */,
+				046409A32AFE320A007804D4 /* ProgressView.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		0482E1E22B0B3CBA00216CE3 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				049585562AC023A50010F0E8 /* TabBarController.swift */,
+				0495855E2AC037CF0010F0E8 /* NavBarController.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 		049585342AC01F270010F0E8 = {
@@ -152,10 +174,11 @@
 		049585602AC03B3F0010F0E8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				0495856A2AC042F70010F0E8 /* Settings */,
-				049585692AC042E40010F0E8 /* Progress */,
-				049585682AC042DC0010F0E8 /* Session */,
+				0482E1E22B0B3CBA00216CE3 /* Navigation */,
 				049585672AC042AF0010F0E8 /* Overview */,
+				049585682AC042DC0010F0E8 /* Session */,
+				049585692AC042E40010F0E8 /* Progress */,
+				0495856A2AC042F70010F0E8 /* Settings */,
 				049585662AC042970010F0E8 /* Base */,
 			);
 			path = Controllers;
@@ -165,9 +188,8 @@
 			isa = PBXGroup;
 			children = (
 				0464099C2AFCCDC5007804D4 /* Views */,
+				0495856B2AC043220010F0E8 /* SessionController.swift */,
 				049585722AC0857C0010F0E8 /* WAButton.swift */,
-				049585562AC023A50010F0E8 /* TabBarController.swift */,
-				0495855E2AC037CF0010F0E8 /* NavBarController.swift */,
 				049585612AC03B7A0010F0E8 /* BaseController.swift */,
 			);
 			path = Base;
@@ -304,6 +326,8 @@
 				0495856C2AC043220010F0E8 /* SessionController.swift in Sources */,
 				049585732AC0857C0010F0E8 /* WAButton.swift in Sources */,
 				0464099E2AFCCDE6007804D4 /* WABaseInfoView.swift in Sources */,
+				046409A12AFE30E1007804D4 /* TimerView.swift in Sources */,
+				046409A42AFE320A007804D4 /* ProgressView.swift in Sources */,
 				0495856E2AC043320010F0E8 /* ProgressController.swift in Sources */,
 				0495855D2AC025D00010F0E8 /* Resources.swift in Sources */,
 				04CC58242AFBA3DB00C51DFD /* Date + Extension.swift in Sources */,
