@@ -66,7 +66,12 @@ enum R {
         enum Progress {
             static var navBarLeft = "Export"
             static var navBarRight = "Details"
+            
+            static let dailyPerformance = "Daily performance"
+            static let last7Days = "Last 7 days"
         }
+        
+        enum settings {}
         
     }
     

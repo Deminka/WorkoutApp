@@ -31,6 +31,7 @@
 		04A140F72B0F661100F6E1B5 /* StepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A140F62B0F661100F6E1B5 /* StepsView.swift */; };
 		04A140FA2B0F682E00F6E1B5 /* WABarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A140F92B0F682E00F6E1B5 /* WABarsView.swift */; };
 		04A140FD2B0F686200F6E1B5 /* WABarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A140FC2B0F686200F6E1B5 /* WABarView.swift */; };
+		04A141012B106C3E00F6E1B5 /* DailyPerformaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A141002B106C3E00F6E1B5 /* DailyPerformaceView.swift */; };
 		04CC581B2AFA375E00C51DFD /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC581A2AFA375E00C51DFD /* OverviewNavBar.swift */; };
 		04CC581D2AFA37EF00C51DFD /* WABaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC581C2AFA37EF00C51DFD /* WABaseView.swift */; };
 		04CC58202AFB9A9500C51DFD /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC581F2AFB9A9500C51DFD /* WeekView.swift */; };
@@ -65,6 +66,7 @@
 		04A140F62B0F661100F6E1B5 /* StepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsView.swift; sourceTree = "<group>"; };
 		04A140F92B0F682E00F6E1B5 /* WABarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABarsView.swift; sourceTree = "<group>"; };
 		04A140FC2B0F686200F6E1B5 /* WABarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABarView.swift; sourceTree = "<group>"; };
+		04A141002B106C3E00F6E1B5 /* DailyPerformaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPerformaceView.swift; sourceTree = "<group>"; };
 		04CC581A2AFA375E00C51DFD /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
 		04CC581C2AFA37EF00C51DFD /* WABaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseView.swift; sourceTree = "<group>"; };
 		04CC581F2AFB9A9500C51DFD /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
@@ -256,6 +258,7 @@
 		049585692AC042E40010F0E8 /* Progress */ = {
 			isa = PBXGroup;
 			children = (
+				04A140FE2B106C0A00F6E1B5 /* Views */,
 				0495856D2AC043320010F0E8 /* ProgressController.swift */,
 			);
 			path = Progress;
@@ -293,6 +296,22 @@
 				04A140FC2B0F686200F6E1B5 /* WABarView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		04A140FE2B106C0A00F6E1B5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04A140FF2B106C1300F6E1B5 /* Performance */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04A140FF2B106C1300F6E1B5 /* Performance */ = {
+			isa = PBXGroup;
+			children = (
+				04A141002B106C3E00F6E1B5 /* DailyPerformaceView.swift */,
+			);
+			path = Performance;
 			sourceTree = "<group>";
 		};
 		04CC581E2AFB9A7200C51DFD /* WeekView */ = {
@@ -376,6 +395,7 @@
 			files = (
 				04A140FD2B0F686200F6E1B5 /* WABarView.swift in Sources */,
 				04CC58202AFB9A9500C51DFD /* WeekView.swift in Sources */,
+				04A141012B106C3E00F6E1B5 /* DailyPerformaceView.swift in Sources */,
 				049585702AC043420010F0E8 /* SettingsController.swift in Sources */,
 				049585452AC01F270010F0E8 /* OverviewController.swift in Sources */,
 				0482E1EB2B0DE2AE00216CE3 /* StatsItemView.swift in Sources */,
