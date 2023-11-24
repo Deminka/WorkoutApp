@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "stats_totalDistance.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

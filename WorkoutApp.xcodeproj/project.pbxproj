@@ -10,6 +10,9 @@
 		0464099E2AFCCDE6007804D4 /* WABaseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464099D2AFCCDE6007804D4 /* WABaseInfoView.swift */; };
 		046409A12AFE30E1007804D4 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046409A02AFE30E1007804D4 /* TimerView.swift */; };
 		046409A42AFE320A007804D4 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046409A32AFE320A007804D4 /* ProgressView.swift */; };
+		0482E1E42B0B8FE400216CE3 /* PercentPercentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482E1E32B0B8FE400216CE3 /* PercentPercentView.swift */; };
+		0482E1E82B0DE22300216CE3 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482E1E72B0DE22300216CE3 /* StatsView.swift */; };
+		0482E1EB2B0DE2AE00216CE3 /* StatsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482E1EA2B0DE2AE00216CE3 /* StatsItemView.swift */; };
 		049585412AC01F270010F0E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049585402AC01F270010F0E8 /* AppDelegate.swift */; };
 		049585432AC01F270010F0E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049585422AC01F270010F0E8 /* SceneDelegate.swift */; };
 		049585452AC01F270010F0E8 /* OverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049585442AC01F270010F0E8 /* OverviewController.swift */; };
@@ -25,8 +28,11 @@
 		0495856E2AC043320010F0E8 /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0495856D2AC043320010F0E8 /* ProgressController.swift */; };
 		049585702AC043420010F0E8 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0495856F2AC043420010F0E8 /* SettingsController.swift */; };
 		049585732AC0857C0010F0E8 /* WAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049585722AC0857C0010F0E8 /* WAButton.swift */; };
+		04A140F72B0F661100F6E1B5 /* StepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A140F62B0F661100F6E1B5 /* StepsView.swift */; };
+		04A140FA2B0F682E00F6E1B5 /* WABarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A140F92B0F682E00F6E1B5 /* WABarsView.swift */; };
+		04A140FD2B0F686200F6E1B5 /* WABarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A140FC2B0F686200F6E1B5 /* WABarView.swift */; };
 		04CC581B2AFA375E00C51DFD /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC581A2AFA375E00C51DFD /* OverviewNavBar.swift */; };
-		04CC581D2AFA37EF00C51DFD /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC581C2AFA37EF00C51DFD /* BaseView.swift */; };
+		04CC581D2AFA37EF00C51DFD /* WABaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC581C2AFA37EF00C51DFD /* WABaseView.swift */; };
 		04CC58202AFB9A9500C51DFD /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC581F2AFB9A9500C51DFD /* WeekView.swift */; };
 		04CC58222AFB9D6700C51DFD /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC58212AFB9D6700C51DFD /* WeekdayView.swift */; };
 		04CC58242AFBA3DB00C51DFD /* Date + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC58232AFBA3DB00C51DFD /* Date + Extension.swift */; };
@@ -36,6 +42,9 @@
 		0464099D2AFCCDE6007804D4 /* WABaseInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseInfoView.swift; sourceTree = "<group>"; };
 		046409A02AFE30E1007804D4 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		046409A32AFE320A007804D4 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		0482E1E32B0B8FE400216CE3 /* PercentPercentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentPercentView.swift; sourceTree = "<group>"; };
+		0482E1E72B0DE22300216CE3 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		0482E1EA2B0DE2AE00216CE3 /* StatsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsItemView.swift; sourceTree = "<group>"; };
 		0495853D2AC01F270010F0E8 /* WorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049585402AC01F270010F0E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		049585422AC01F270010F0E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,8 +62,11 @@
 		0495856D2AC043320010F0E8 /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
 		0495856F2AC043420010F0E8 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		049585722AC0857C0010F0E8 /* WAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAButton.swift; sourceTree = "<group>"; };
+		04A140F62B0F661100F6E1B5 /* StepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsView.swift; sourceTree = "<group>"; };
+		04A140F92B0F682E00F6E1B5 /* WABarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABarsView.swift; sourceTree = "<group>"; };
+		04A140FC2B0F686200F6E1B5 /* WABarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABarView.swift; sourceTree = "<group>"; };
 		04CC581A2AFA375E00C51DFD /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
-		04CC581C2AFA37EF00C51DFD /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		04CC581C2AFA37EF00C51DFD /* WABaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseView.swift; sourceTree = "<group>"; };
 		04CC581F2AFB9A9500C51DFD /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 		04CC58212AFB9D6700C51DFD /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
 		04CC58232AFBA3DB00C51DFD /* Date + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + Extension.swift"; sourceTree = "<group>"; };
@@ -74,7 +86,8 @@
 		0464099C2AFCCDC5007804D4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				04CC581C2AFA37EF00C51DFD /* BaseView.swift */,
+				04A140F82B0F67F900F6E1B5 /* WABarsView */,
+				04CC581C2AFA37EF00C51DFD /* WABaseView.swift */,
 				0464099D2AFCCDE6007804D4 /* WABaseInfoView.swift */,
 			);
 			path = Views;
@@ -84,6 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				046409A22AFE31E6007804D4 /* Timer */,
+				0482E1E52B0DDE1800216CE3 /* Stats */,
+				0482E1E62B0DDE2100216CE3 /* Steps */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -93,6 +108,7 @@
 			children = (
 				046409A02AFE30E1007804D4 /* TimerView.swift */,
 				046409A32AFE320A007804D4 /* ProgressView.swift */,
+				0482E1E32B0B8FE400216CE3 /* PercentPercentView.swift */,
 			);
 			path = Timer;
 			sourceTree = "<group>";
@@ -104,6 +120,31 @@
 				0495855E2AC037CF0010F0E8 /* NavBarController.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		0482E1E52B0DDE1800216CE3 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				0482E1E92B0DE28300216CE3 /* Views */,
+				0482E1E72B0DE22300216CE3 /* StatsView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		0482E1E62B0DDE2100216CE3 /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				04A140F62B0F661100F6E1B5 /* StepsView.swift */,
+			);
+			path = Steps;
+			sourceTree = "<group>";
+		};
+		0482E1E92B0DE28300216CE3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0482E1EA2B0DE2AE00216CE3 /* StatsItemView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		049585342AC01F270010F0E8 = {
@@ -188,7 +229,6 @@
 			isa = PBXGroup;
 			children = (
 				0464099C2AFCCDC5007804D4 /* Views */,
-				0495856B2AC043220010F0E8 /* SessionController.swift */,
 				049585722AC0857C0010F0E8 /* WAButton.swift */,
 				049585612AC03B7A0010F0E8 /* BaseController.swift */,
 			);
@@ -208,6 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				0464099F2AFE30A1007804D4 /* Views */,
+				0495856B2AC043220010F0E8 /* SessionController.swift */,
 			);
 			path = Session;
 			sourceTree = "<group>";
@@ -233,6 +274,23 @@
 			children = (
 				04CC581E2AFB9A7200C51DFD /* WeekView */,
 				04CC581A2AFA375E00C51DFD /* OverviewNavBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04A140F82B0F67F900F6E1B5 /* WABarsView */ = {
+			isa = PBXGroup;
+			children = (
+				04A140FB2B0F684400F6E1B5 /* Views */,
+				04A140F92B0F682E00F6E1B5 /* WABarsView.swift */,
+			);
+			path = WABarsView;
+			sourceTree = "<group>";
+		};
+		04A140FB2B0F684400F6E1B5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04A140FC2B0F686200F6E1B5 /* WABarView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -316,9 +374,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A140FD2B0F686200F6E1B5 /* WABarView.swift in Sources */,
 				04CC58202AFB9A9500C51DFD /* WeekView.swift in Sources */,
 				049585702AC043420010F0E8 /* SettingsController.swift in Sources */,
 				049585452AC01F270010F0E8 /* OverviewController.swift in Sources */,
+				0482E1EB2B0DE2AE00216CE3 /* StatsItemView.swift in Sources */,
 				04CC581B2AFA375E00C51DFD /* OverviewNavBar.swift in Sources */,
 				049585572AC023A50010F0E8 /* TabBarController.swift in Sources */,
 				049585412AC01F270010F0E8 /* AppDelegate.swift in Sources */,
@@ -328,13 +388,17 @@
 				0464099E2AFCCDE6007804D4 /* WABaseInfoView.swift in Sources */,
 				046409A12AFE30E1007804D4 /* TimerView.swift in Sources */,
 				046409A42AFE320A007804D4 /* ProgressView.swift in Sources */,
+				04A140F72B0F661100F6E1B5 /* StepsView.swift in Sources */,
 				0495856E2AC043320010F0E8 /* ProgressController.swift in Sources */,
 				0495855D2AC025D00010F0E8 /* Resources.swift in Sources */,
 				04CC58242AFBA3DB00C51DFD /* Date + Extension.swift in Sources */,
 				049585432AC01F270010F0E8 /* SceneDelegate.swift in Sources */,
+				0482E1E42B0B8FE400216CE3 /* PercentPercentView.swift in Sources */,
 				049585622AC03B7A0010F0E8 /* BaseController.swift in Sources */,
-				04CC581D2AFA37EF00C51DFD /* BaseView.swift in Sources */,
+				04CC581D2AFA37EF00C51DFD /* WABaseView.swift in Sources */,
 				04CC58222AFB9D6700C51DFD /* WeekdayView.swift in Sources */,
+				04A140FA2B0F682E00F6E1B5 /* WABarsView.swift in Sources */,
+				0482E1E82B0DE22300216CE3 /* StatsView.swift in Sources */,
 				0495855A2AC024C40010F0E8 /* UIColor + Extension.swift in Sources */,
 				049585642AC040280010F0E8 /* UIView + Extension.swift in Sources */,
 			);

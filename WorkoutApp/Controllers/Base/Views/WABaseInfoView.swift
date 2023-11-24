@@ -7,7 +7,7 @@
 
 import UIKit
 
-class WABaseInfoView: BaseView {
+class WABaseInfoView: WABaseView {
     
     private let titleLabel: UILabel = {
         let label = UILabel()
@@ -18,7 +18,7 @@ class WABaseInfoView: BaseView {
     
     private let button =  WAButton(with: .primary)
     
-    private let contentView: UIView = {
+    let contentView: UIView = {
         let view = UIView()
         view.backgroundColor = .white
         view.layer.borderColor = R.Colors.separator.cgColor
@@ -28,7 +28,7 @@ class WABaseInfoView: BaseView {
     }()
     
     init(with title: String? = nil, buttonTitle: String? = nil) {
-
+        
         titleLabel.text = title?.uppercased()
         titleLabel.textAlignment = buttonTitle == nil ? .center : .left
         button.setTitle(buttonTitle)
@@ -84,5 +84,5 @@ extension WABaseInfoView {
         backgroundColor = .clear
     }
 }
-    
-    
+
+

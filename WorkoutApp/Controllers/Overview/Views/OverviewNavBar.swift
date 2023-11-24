@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class OverViewNavBar: BaseView {
+final class OverViewNavBar: WABaseView {
     
     private let titleLabel = UILabel()
     private let allWorkoutsButton: WAButton = {
