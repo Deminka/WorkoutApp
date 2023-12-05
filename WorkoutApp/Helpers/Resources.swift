@@ -69,6 +69,9 @@ enum R {
             
             static let dailyPerformance = "Daily performance"
             static let last7Days = "Last 7 days"
+            
+            static let monthlyPerformance = "Mothly performance"
+            static let last10Months = "Last 10 months"
         }
         
         enum settings {}
@@ -89,8 +92,14 @@ enum R {
         }
         
         enum Common {
-            static var downArrow = UIImage(named: "Path")
+            static var downArrow = UIImage(named: "down_arrow")
             static var add = UIImage(named: "add_button")
+        }
+        
+        enum Overview {
+            static var rightArrow = UIImage(named: "right_arrow")
+            static var checkmarkDone = UIImage(named: "checkmark_done")
+            static var checkmarkNotDone = UIImage(named: "checkmark_not_done")
         }
         
         enum session {
